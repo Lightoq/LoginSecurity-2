@@ -6,23 +6,23 @@ description: 'The #1 Auth plugin'
 softdepend: [ProtocolLib]
 commands:
   login:
-    description: Login with your account.
+    description: đăng nhập vào tài khoản của bạn
     usage: /login <password>
   register:
-    description: Set a password for your account.
+    description: tạo mật khẩu cho tài khoản
     usage: /register <password>
   changepassword:
-    description: Change your account password.
+    description: đổi mâtk khẩu cho tài khoản
     aliases: [changepass]
     usage: /changepass <old pass> <new pass>
   logout:
-    description: Log out of your account.
+    description: đăng xuất khỏi tài khoản
     usage: /logout
   unregister:
-    description: Unregister your account.
+    description: hủy đăng ký tài khoản
     usage: /unregister <current password>
   lac:
-    description: LoginSecurity Admin command.
+    description: LoginSecurity lệnh của ngưòi điều hành
     usage: /lac
 permissions:
   ls.update:
